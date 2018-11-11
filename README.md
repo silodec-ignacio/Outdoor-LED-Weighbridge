@@ -2,7 +2,8 @@
 
 This is a documentation detailing how to set an Outdoor LED panel for the SI Lodec Weighbridge.
 
-##  Displaying a simple text message on LED panel.
+## Snake 8x2 Panel
+###  Displaying a simple text message on LED panel.
 
 Set up your raspberry pi and connect it to your LED panel. 
 
