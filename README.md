@@ -2,6 +2,8 @@
 
 This is a documentation detailing how to set an Outdoor LED panel for the SI Lodec Weighbridge.
 
+##  Displaying a simple text message on LED panel.
+
 Set up your raspberry pi and connect it to your LED panel. 
 
 You'll need to clone the GitHub repository made by hzeller onto your Raspberry Pi:
