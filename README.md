@@ -24,10 +24,10 @@ Your message should display on your LED panel.
 
 To break down each part of the command:
 
-- sudo examples-api-use/text-example << from the directory 'examples-api-use' use the C++ code file "text-example" which allows you to display a text message.
-- -f fonts/9x15.bdf << choose which font size the message will be displayed as.
-- --led-no-hardware-pulse << avoids using the built-in sound of the Pi. It is known to cause issues.
-- --led-multiplexing=4 << a simplified pixel mappers for outdoor panels. Multiplex 4 ('ZStripe') was used for this demo.
+- `sudo examples-api-use/text-example` << from the directory 'examples-api-use' use the C++ code file "text-example" which allows you to display a text message.
+- `-f fonts/9x15.bdf` << choose which font size the message will be displayed as.
+- `--led-no-hardware-pulse` << avoids using the built-in sound of the Pi. It is known to cause issues.
+- `--led-multiplexing=4` << a simplified pixel mappers for outdoor panels. Multiplex 4 ('ZStripe') was used for this demo.
 
 To add different options to how the message is displayed for you, here is a list of commands:
 
