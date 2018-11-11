@@ -1,6 +1,4 @@
-"# Outdoor-LED-Weighbridge" 
-"# Outdoor-LED-Weighbridge" 
-
+# Outdoor LED Weighbridge
 
 This is a documentation detailing how to set an Outdoor LED panel for the SI Lodec Weighbridge.
 
