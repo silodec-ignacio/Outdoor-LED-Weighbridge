@@ -1,0 +1,31 @@
+For 32 x 32 P5 panels:
+
+in the /lib folder
+edit the tansformer.cc file to make mapping as Snake16x8
+edit the framebuffer.cc file to define SUB_PANELS_ = 4
+
+make /lib before compiling source!
+
+
+in the /source folder
+edit kib_32x32_P5.cc:
+  transformer = Snake16x8Transformer()
+  rows = 32
+  chain = double number of panels
+
+*********************************************************
+
+For 32 x 16 P10 panels:
+
+in the /lib folder
+edit the tansformer.cc file to make mapping as  
+edit the framebuffer.cc file to define SUB_PANELS_ = 2
+
+make /lib before compiling source!
+
+
+in the /source folder
+edit kib_32x32_P10.cc:
+  transformer = Snake8x2Transformer()
+  rows = 8
+  chain = double number of panels
